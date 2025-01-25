@@ -13,6 +13,7 @@ public class CommonElements1 {
                 if(arr1[i]==arr2[j])
                 {
                      hs.add(arr1[i]);
+                     break;
                 }
             }
         }
