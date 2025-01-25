@@ -12,10 +12,10 @@ public class EvenOddNumbers {
                 a1.add(a[i]);
             } else {
                 a2.add(a[i]);
-            }
+            }   
         }
         int total1 = 0;
-        System.out.println("Even no's Are:");
+        System.out.println("Even no's Are:");   
         for (int no : a1) {
             total1 = total1 + no;
             System.out.print(no + " ");
